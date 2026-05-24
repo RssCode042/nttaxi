@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /editor
+
+Sitemap: https://6106.bg/sitemap.xml

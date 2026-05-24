@@ -1,0 +1,6 @@
+{
+  "name": "EH Taxi 6106 Stara Zagora",
+  "description": "Официален уебсайт на таксиметрова компания ЕН Такси 6106 в град Стара Загора. Бърза поръчка, актуални цени и калкулатор за пътуване.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

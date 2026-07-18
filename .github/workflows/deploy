@@ -32,9 +32,5 @@ jobs:
           path: 'dist'
       
       - name: Deploy to GitHub Pages
-<<<<<<< HEAD
-        uses: actions/deploy-pages@v4
-=======
         id: deployment
-        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5
->>>>>>> 46e2d81 (change)
+        uses: actions/deploy-pages@v4

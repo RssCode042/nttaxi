@@ -1,5 +1,6 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import {Helmet} from 'react-helmet-async';
+import { Suspense, lazy } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -32,8 +33,10 @@ function Home() {
 export default function App() {
   return (
     <BrowserRouter basename="/nttaxi">
+        <Header />
         <div className="min-h-screen bg-bg">
-           <Header />
+           
+           <Suspense fallback={<div className="p-8 text-center text-gray-500">Зареждане...</div>}></Suspense>
              <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/application" element={<Application />} />
